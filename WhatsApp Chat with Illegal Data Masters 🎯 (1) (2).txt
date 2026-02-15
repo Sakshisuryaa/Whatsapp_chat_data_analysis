@@ -1,0 +1,644 @@
+02/09/2023, 2:40 pm - Krishna MGM: IMG-20230902-WA0010.jpg (file attached)
+02/09/2023, 2:40 pm - Krishna MGM: IMG-20230902-WA0012.jpg (file attached)
+02/09/2023, 2:40 pm - Krishna MGM: IMG-20230902-WA0011.jpg (file attached)
+02/09/2023, 2:55 pm - Krishna MGM: PTT-20230902-WA0013.opus (file attached)
+02/09/2023, 2:55 pm - Krishna MGM: Problem will solve
+02/09/2023, 2:55 pm - Krishna MGM: Jo bache class nhi aa paye unke liye hai bass
+02/09/2023, 2:55 pm - Krishna MGM: Vahi log sune
+02/09/2023, 3:51 pm - Yash Mgm: Bhai sound quality Jo hai Naa vo bohot High quality ki hai 
+Vo kya hai na Mai itni high quality ki audio suntanahi hu na isliye ✌️
+03/09/2023, 8:48 pm - Ashul MGM: Hello guys good morning to everyone 😂
+03/09/2023, 8:49 pm - Ashul MGM: Kal college hai kya
+03/09/2023, 8:49 pm - Ashul MGM: Ya nahi
+03/09/2023, 8:52 pm - Ibrahim MGM: ???
+03/09/2023, 8:54 pm - Ashul MGM: What about college
+03/09/2023, 8:54 pm - Krishna MGM: IMG-20230903-WA0000.jpg (file attached)
+Vahi puch ne aaya hun yaha
+03/09/2023, 8:54 pm - Krishna MGM: I think there is no College tomorrow
+03/09/2023, 8:54 pm - Ashul MGM: Puch na unse
+03/09/2023, 8:55 pm - Ashul MGM: Unko
+03/09/2023, 9:05 pm - Yash Mgm: Kal band hai re Aurangabad
+03/09/2023, 9:06 pm - Ayman MGM: Ye maine bhi suna lekin apne clg ko holiday rahingi ya nahi kuch bol nahi sakte
+03/09/2023, 9:07 pm - Yash Mgm: Kal college jare phir
+03/09/2023, 9:08 pm - Krishna MGM: Nhi re clg ne
+03/09/2023, 9:08 pm - Krishna MGM: Sab Maharashtra band hai
+03/09/2023, 9:08 pm - Yash Mgm: Haa vahi na
+03/09/2023, 9:08 pm - Ayman MGM: Sir msg karke puchte kya?
+03/09/2023, 9:08 pm - Ayman MGM: Ko*
+03/09/2023, 9:09 pm - Yash Mgm: Mat aao kal college ko
+03/09/2023, 9:12 pm - Ashul MGM: Ha puch ke confirm kar lo sir se
+03/09/2023, 9:13 pm - Ayman MGM: Fir sab nahi jaate
+03/09/2023, 9:13 pm - Krishna MGM: Tess
+03/09/2023, 9:13 pm - Krishna MGM: Yes
+03/09/2023, 9:37 pm - Ibrahim MGM: Then who will come 2mmorow?
+03/09/2023, 9:50 pm - Ibrahim MGM: ?@?@?@?@?@?
+03/09/2023, 11:24 pm - Krishna MGM: Kal band hai saab
+06/09/2023, 8:46 am - Krishna MGM: Hello
+06/09/2023, 9:11 am - Ibrahim MGM: Yes
+06/09/2023, 9:43 am - Krishna MGM: Practical
+07/09/2023, 9:58 am - Yash Mgm: Practical ko koi aaraha hai kya?
+07/09/2023, 10:08 am - Krishna MGM: Bhi
+07/09/2023, 10:08 am - Krishna MGM: Bhi
+07/09/2023, 10:08 am - Krishna MGM: Nhi
+07/09/2023, 1:10 pm - Ibrahim MGM: .
+07/09/2023, 1:12 pm - Shibaan MGM: IMG-20230901-WA0002.jpg (file attached)
+07/09/2023, 2:58 pm - Shibaan MGM: <Media omitted>
+07/09/2023, 4:39 pm - Sakshi ♥️💞: from queue import PriorityQueue
+
+# Define a graph as an adjacency list
+graph = {
+    'A': [('B', 5), ('C', 6)],
+    'B': [('D', 3), ('E', 4)],
+    'C': [('F', 7),('G', 8)],
+    'D': [],
+    'E': [('H', 2), ('I', 1)],
+    'F': [('J', 4)],
+    'G': [],
+    'H': [],
+    'I': [],
+    'J': []
+    
+}
+
+def best_first_search(graph, start, goal):
+    visited = set()
+    priority_queue = PriorityQueue()
+    priority_queue.put((0, start))
+
+    while not priority_queue.empty():
+        cost, current_node = priority_queue.get()
+
+        if current_node in visited:
+            continue
+
+        print("Visiting node:", current_node)
+        visited.add(current_node)
+
+        if current_node == goal:
+            print("Goal reached!")
+            break
+
+        for neighbor, edge_cost in graph[current_node]:
+            if neighbor not in visited:
+                priority_queue.put((edge_cost, neighbor))
+
+# Example usage
+start_node = 'A'
+goal_node = 'J'
+best_first_search(graph, start_node, goal_node)
+07/09/2023, 10:14 pm - Krishna MGM: <Media omitted>
+07/09/2023, 10:16 pm - Yash Mgm: <Media omitted>
+07/09/2023, 10:17 pm - Yash Mgm: <Media omitted>
+08/09/2023, 10:14 am - Ibrahim MGM: This message was deleted
+08/09/2023, 10:14 am - Ibrahim MGM: This message was deleted
+08/09/2023, 10:14 am - Ibrahim MGM: This message was deleted
+08/09/2023, 10:15 am - Ibrahim MGM: This message was deleted
+08/09/2023, 10:15 am - Ibrahim MGM: This message was deleted
+08/09/2023, 11:03 am - Ashul MGM: Who is in college
+08/09/2023, 11:03 am - Ashul MGM: ?
+08/09/2023, 11:31 am - Ibrahim MGM: You
+08/09/2023, 11:32 am - Krishna MGM: 😤
+08/09/2023, 11:32 am - Krishna MGM: ☺️
+08/09/2023, 11:32 am - Krishna MGM: 😤
+08/09/2023, 11:32 am - Krishna MGM: 🤣
+08/09/2023, 2:12 pm - Yash Mgm: <Media omitted>
+08/09/2023, 2:13 pm - Yash Mgm: Kaha pe hai re tu
+08/09/2023, 2:13 pm - Yash Mgm: Koi hai kya is ke baju me
+08/09/2023, 2:15 pm - Yash Mgm: Usko bolo uski mummy bulari garpe 🏠garka saman Lana hai
+08/09/2023, 2:28 pm - Yash Mgm started a video call
+10/09/2023, 2:04 pm - Yash Mgm: <Media omitted>
+10/09/2023, 10:22 pm - Shibaan MGM: AI_Chapter1And2 Notes (1).pdf (file attached)
+AI_Chapter1And2 Notes (1).pdf
+10/09/2023, 11:43 pm - Yash Mgm started a video call
+10/09/2023, 11:45 pm - Hashim MGM: @919834670241 kya hogaya
+10/09/2023, 11:45 pm - Hashim MGM: Neend nahi aari kya ?
+10/09/2023, 11:45 pm - Yash Mgm: Nahi yaar
+10/09/2023, 11:45 pm - Yash Mgm started a video call
+10/09/2023, 11:46 pm - Hashim MGM: Video call karke kya hoga
+10/09/2023, 11:46 pm - Hashim MGM: Milna hai toh neeche aao
+10/09/2023, 11:46 pm - Ashul MGM: Bhai kya breakup hogay kya?
+10/09/2023, 11:46 pm - Ayman MGM: Video call ke button se se door reh tu
+10/09/2023, 11:46 pm - Yash Mgm: Tum so jao
+10/09/2023, 11:46 pm - Hashim MGM: Sath me baith ke breakup story suninge tumhari
+10/09/2023, 11:46 pm - Ayman MGM: Tu chup reh
+10/09/2023, 11:47 pm - Hashim MGM: 😂😂😂
+10/09/2023, 11:47 pm - Ashul MGM: 😂😂
+10/09/2023, 11:47 pm - Yash Mgm: PTT-20230910-WA0003.opus (file attached)
+10/09/2023, 11:47 pm - Hashim MGM: Aisa dikhra ke tumhari gf milne se pehle hi breakup hogaya
+10/09/2023, 11:47 pm - Hashim MGM: 12 baje video call karre
+10/09/2023, 11:48 pm - Ashul MGM: Ha vahi to
+10/09/2023, 11:48 pm - Yash Mgm: <Media omitted>
+10/09/2023, 11:48 pm - Yash Mgm: 😂
+10/09/2023, 11:48 pm - Hashim MGM: 😂😂😂😂😂
+10/09/2023, 11:48 pm - Ashul MGM: Aisa to insan ak hi bar karta hai jab breakup ho jaye
+10/09/2023, 11:48 pm - Hashim MGM: Ithna pyaara dost mila… gf ki kya zurat tumko
+10/09/2023, 11:49 pm - Yash Mgm: Sadi karni hai muje
+10/09/2023, 11:49 pm - Hashim MGM: Zada aage chale gaye
+10/09/2023, 11:49 pm - Ashul MGM: Kisase dost se
+10/09/2023, 11:49 pm - Ashul MGM: 😂
+10/09/2023, 11:49 pm - Yash Mgm: Are ladi se
+10/09/2023, 11:50 pm - Ashul MGM: Are isaka sach me breakup hua re hashim
+10/09/2023, 11:50 pm - Hashim MGM: 😂😂😂
+10/09/2023, 11:50 pm - Ashul MGM: Spelling mistakes karara banda
+10/09/2023, 11:51 pm - Yash Mgm: 😂
+10/09/2023, 11:51 pm - Ashul MGM: Dipression me to nahi jayega n Bhai tu yash
+10/09/2023, 11:51 pm - Yash Mgm: <Media omitted>
+10/09/2023, 11:52 pm - Hashim MGM: 😋😋😋
+10/09/2023, 11:52 pm - Yash Mgm: Are bhai dipression me Jane ke liye hi mai ladki dhund rahe ho
+10/09/2023, 11:52 pm - Hashim MGM: Kulfi leke aao sab ke liyea
+10/09/2023, 11:52 pm - Yash Mgm: Kal lata
+10/09/2023, 11:53 pm - Yash Mgm: Par kulfi ka badam shek ho jayega
+10/09/2023, 11:53 pm - Ashul MGM: Usake liye ladki ki nahi padhai hi kafi hai
+10/09/2023, 11:53 pm - Hashim MGM: 😂😂😂
+10/09/2023, 11:53 pm - Ashul MGM: Sath enjoy kare kahani sunege yash kai
+10/09/2023, 11:54 pm - Yash Mgm: PTT-20230911-WA0001.opus (file attached)
+10/09/2023, 11:54 pm - Yash Mgm: PTT-20230911-WA0000.opus (file attached)
+10/09/2023, 11:55 pm - Ashul MGM: Aur vo divana ladaka dispersion me Gaya ak din u ladke chod Jane ke bad
+10/09/2023, 11:55 pm - Ashul MGM: Ladaki
+10/09/2023, 11:56 pm - Yash Mgm: This message was deleted
+10/09/2023, 11:56 pm - Ashul MGM: Ro mat yash koi bat nahi ak gayi dusari aayegi
+10/09/2023, 11:57 pm - Yash Mgm: Peace out ✌️🕊️
+10/09/2023, 11:57 pm - Ashul MGM: Ok Bhai soja ab kal dhundenge dusari
+10/09/2023, 11:58 pm - Ashul MGM: Good night
+10/09/2023, 11:58 pm - Yash Mgm: 🥲
+11/09/2023, 3:27 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20230911-WA0003.jpg (file attached)
+11/09/2023, 3:27 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20230911-WA0004.jpg (file attached)
+12/09/2023, 7:22 am - Ashul MGM: The waterfall I thought  you yesterday... sahastrakund waterfall
+12/09/2023, 7:22 am - Ashul MGM: Just look at the view guys...
+12/09/2023, 7:23 am - Ashul MGM: <Media omitted>
+12/09/2023, 7:23 am - Ashul MGM: <Media omitted>
+12/09/2023, 7:25 am - Ashul MGM: <Media omitted>
+See this....
+13/09/2023, 11:15 am - Shibaan MGM: <Media omitted>
+13/09/2023, 11:17 am - Shibaan MGM: Distributed computing
+13/09/2023, 11:17 am - Sakshi ♥️💞: <Media omitted>
+13/09/2023, 11:17 am - Krishna MGM: Are baap re
+13/09/2023, 11:17 am - Sakshi ♥️💞: Distributing computing index
+13/09/2023, 11:17 am - Krishna MGM: 😱😱
+13/09/2023, 12:38 pm - Ibrahim MGM: Wtff
+13/09/2023, 12:52 pm - Yash Mgm: Leacture ko aare kya
+13/09/2023, 1:02 pm - Krishna MGM: Bhi
+13/09/2023, 1:02 pm - Krishna MGM: Nhi
+14/09/2023, 12:47 pm - Ibrahim MGM: Hi
+14/09/2023, 6:08 pm - Krishna MGM: Hello
+15/09/2023, 9:30 am - Ibrahim MGM: Hi
+15/09/2023, 9:31 am - Ibrahim MGM: How is comeing ?
+15/09/2023, 12:14 pm - Krishna MGM: It’s heavy rain 🌧️
+15/09/2023, 12:20 pm - Ibrahim MGM: Yeqh
+15/09/2023, 12:20 pm - Ibrahim MGM: Yeah
+18/09/2023, 12:42 pm - Krishna MGM: ??
+18/09/2023, 12:51 pm - Krishna MGM: Sir hi nhi aare shyd lecture lene
+20/09/2023, 7:21 am - Krishna MGM: Aaj practical hai kya
+20/09/2023, 2:12 pm - Krishna MGM: All students should update their resumes till 21st of sept
+20/09/2023, 2:13 pm - Krishna MGM: There is urgent requirement of data analyst in certain company so everyone should be ready with their resumes
+20/09/2023, 2:14 pm - Krishna MGM: By Pooja Mam
+20/09/2023, 2:14 pm - Sakshi ♥️💞: UNIT ...3
+
+1.Explain in brief global state and snapshot   ? (Ans with system model and definitions)                              2. Explain Snapshot algorithm for fifo Channel ?        3. Explain Snapshot algorithm for non- fifo Channel ?                                     4. Explain Snapshot algorithm for CO  Channel?         5. Explain Snapshot in a causal delivery system?            6. Explain in detail  necessary and sufficient conditions for consistent global?                                            7. Consistent global Snapshots in a distributed  computation?
+20/09/2023, 2:14 pm - Sakshi ♥️💞: Unit ...2
+
+
+
+1.Explain in brief global state and snapshot   ? (Ans with system model and definitions)                              2. Explain Snapshot algorithm for fifo Channel ?        3. Explain Snapshot algorithm for non- fifo Channel ?                                     4. Explain Snapshot algorithm for CO  Channel?         5. Explain Snapshot in a causal delivery system?            6. Explain in detail  necessary and sufficient conditions for consistent global?                                            7. Consistent global Snapshots in a distributed  computation?
+20/09/2023, 2:14 pm - Sakshi ♥️💞: UNIT ...1 
+
+Q1. Explain the models of distributed computations .
+Q2. Explain the models of communication networks .
+Q3. Explain the models of process communication. 
+Q4. Explain the cuts of distributed computation and past and future cons of an  event .
+Q5 . Write a short note on logical clock ,vector time , matrix time and virtual time .
+Q6. Explain tha jard Jordan's adaptive technique 
+Q7.  Write a short note on physical synchronization with NTP.
+20/09/2023, 2:14 pm - Sakshi ♥️💞: Distributing computing
+20/09/2023, 2:14 pm - Sakshi ♥️💞: Tutorial
+20/09/2023, 2:14 pm - Sakshi ♥️💞: Question
+20/09/2023, 2:16 pm - Krishna MGM: Send your name along with contact no
+20/09/2023, 2:17 pm - Krishna MGM: Pooja Mam
+20/09/2023, 2:31 pm - Krishna MGM: Resume should be updated with passport size photo
+20/09/2023, 7:53 pm - Yash Mgm: <Media omitted>
+20/09/2023, 7:53 pm - Yash Mgm: What's the meaning of this @966540434361
+20/09/2023, 8:25 pm - Ibrahim MGM: Idk he is from new delhi
+21/09/2023, 1:15 pm - Shibaan MGM: IMG-20230921-WA0020.jpg (file attached)
+21/09/2023, 1:25 pm - Shibaan MGM: IMG-20230921-WA0021.jpg (file attached)
+21/09/2023, 1:32 pm - Shibaan MGM: IMG-20230921-WA0022.jpg (file attached)
+21/09/2023, 1:54 pm - Shibaan MGM: IMG-20230921-WA0027.jpg (file attached)
+21/09/2023, 1:54 pm - Shibaan MGM: IMG-20230921-WA0026.jpg (file attached)
+21/09/2023, 1:54 pm - Shibaan MGM: IMG-20230921-WA0025.jpg (file attached)
+21/09/2023, 1:54 pm - Shibaan MGM: IMG-20230921-WA0024.jpg (file attached)
+21/09/2023, 1:54 pm - Shibaan MGM: IMG-20230921-WA0023.jpg (file attached)
+22/09/2023, 9:57 am - Yash Mgm: Aare kya koi?
+22/09/2023, 9:57 am - Yash Mgm: Practical ko
+22/09/2023, 9:58 am - Krishna MGM: Gao ko ja
+22/09/2023, 9:59 am - Krishna MGM: null
+22/09/2023, 10:00 am - Hashim MGM: 😂😂😂
+22/09/2023, 10:00 am - Hashim MGM: Nahi
+22/09/2023, 10:01 am - Yash Mgm: Koi mat aao phir
+22/09/2023, 10:12 am - Krishna MGM: Aa b kon raha hai
+22/09/2023, 12:35 pm - Ibrahim MGM: Hi
+22/09/2023, 12:35 pm - Ibrahim MGM: Is there college?
+22/09/2023, 1:30 pm - Krishna MGM: No
+22/09/2023, 1:30 pm - Krishna MGM: Please don’t come
+22/09/2023, 1:31 pm - Krishna MGM: Please come for the lecture
+22/09/2023, 1:32 pm - Krishna MGM: Please don’t come for the lecture
+22/09/2023, 1:32 pm - Krishna MGM: Please come for the lecture
+22/09/2023, 1:32 pm - Krishna MGM: 👍🏻
+22/09/2023, 1:42 pm - Krishna MGM: PTT-20230922-WA0012.opus (file attached)
+23/09/2023, 9:25 pm - Yash Mgm: <Media omitted>
+New blog (scary rainy night) 🏊🏄🙀
+25/09/2023, 12:50 pm - Yash Mgm: Koi hai kya college me
+25/09/2023, 1:20 pm - Krishna MGM: null
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: <Media omitted>
+25/09/2023, 7:07 pm - Sakshi ♥️💞: Distributing computing all particals .
+26/09/2023, 12:52 pm - Shibaan MGM: <Media omitted>
+28/09/2023, 10:05 am - Ashul MGM: 👋 good morning all
+28/09/2023, 10:06 am - Ashul MGM: Koi college jara hai kya Aaj?
+28/09/2023, 10:06 am - Shibaan MGM: 12:45
+28/09/2023, 10:07 am - Yash Mgm: Nahi
+28/09/2023, 10:59 am - Krishna MGM: Baithna aaj to ghar pr
+28/09/2023, 10:59 am - Krishna MGM: Itta kya aata clgme
+28/09/2023, 7:49 pm - Yash Mgm: <Media omitted>
+Bhai ki shadi ho gai hai,sabhi congrats Karo bhai ko 🎉💥
+28/09/2023, 7:59 pm - Ashul MGM: Kab kaha kaise ?
+28/09/2023, 7:59 pm - Ashul MGM: Congratulations Bhai 🫡
+28/09/2023, 7:59 pm - Ashul MGM: 😂
+28/09/2023, 8:34 pm - Hashim MGM: Anyone started making ai presentations ?
+28/09/2023, 8:35 pm - Hashim MGM: Uske topics ki list hai kya kisi ke paas ?
+28/09/2023, 8:35 pm - Hashim MGM: 👏👏🎉🎉
+28/09/2023, 10:34 pm - Yash Mgm: 😂😂😂
+28/09/2023, 10:35 pm - Yash Mgm: <Media omitted>
+28/09/2023, 10:35 pm - Yash Mgm: Bhai ki barat ka video 💥🎉
+28/09/2023, 10:36 pm - Hashim MGM: 😂😂😂
+28/09/2023, 10:36 pm - Hashim MGM: Bht khush hai krishna 😂
+28/09/2023, 10:37 pm - Yash Mgm: Uski manpasad wife Jo mili hai
+28/09/2023, 10:38 pm - Hashim MGM: Krishna thoda rukh jaate
+28/09/2023, 10:38 pm - Hashim MGM: Sabar ka phal meetha hota hai
+28/09/2023, 10:38 pm - Yash Mgm: Haa yaar usko thoda sada hua phal Mila hai
+28/09/2023, 10:38 pm - Yash Mgm: 😂😂
+28/09/2023, 10:39 pm - Hashim MGM: 😂😂😂
+28/09/2023, 10:47 pm - Krishna MGM: Sale Yash
+28/09/2023, 10:48 pm - Krishna MGM: Kutte
+28/09/2023, 10:48 pm - Hashim MGM: Krishna yash se door rakho aise videos 😂😂😂
+28/09/2023, 10:49 pm - Krishna MGM: Hana
+28/09/2023, 10:49 pm - Krishna MGM: Pata b nhi chla yaha meri shadi b hogayi
+28/09/2023, 10:49 pm - Hashim MGM: 😂😂😂
+28/09/2023, 10:49 pm - Yash Mgm: Happy birthday Krishna 🎂🎉
+28/09/2023, 10:49 pm - Hashim MGM: Shaadi birthday ek hi din me ?
+28/09/2023, 10:50 pm - Yash Mgm: Hao dono Khushi ke mauke ekisath
+28/09/2023, 10:50 pm - Krishna MGM: 🙄
+29/09/2023, 1:41 am - Ibrahim MGM: Issss
+29/09/2023, 1:41 am - Ibrahim MGM: There college
+29/09/2023, 1:41 am - Ibrahim MGM: Bhai bhai is there college ?
+29/09/2023, 1:41 am - Ibrahim MGM: Tommorow
+29/09/2023, 1:41 am - Hashim MGM: Nope
+29/09/2023, 1:41 am - Hashim MGM: Take rest tomorrow 😂
+30/09/2023, 8:45 am - Yash Mgm: Koi college aara kya?
+30/09/2023, 8:46 am - Yash Mgm: Practical ya lecture ko
+30/09/2023, 9:05 am - Krishna MGM: Tu jare
+30/09/2023, 9:18 am - Yash Mgm: Are bore hora yaar Ghar pe
+30/09/2023, 9:18 am - Yash Mgm: Isliye puch Raha tha
+30/09/2023, 9:22 am - Krishna MGM: Tu call kr meko
+30/09/2023, 2:10 pm - Huda MGM: IMG-20230930-WA0021.jpg (file attached)
+30/09/2023, 2:10 pm - Huda MGM: More tutorial questions for big data
+30/09/2023, 3:42 pm - Ibrahim MGM: IMG-20230930-WA0023.jpg (file attached)
+02/10/2023, 5:39 pm - Yash Mgm: 5 to 7 exams will start
+02/10/2023, 5:49 pm - Hashim MGM: Kya ?
+02/10/2023, 5:55 pm - Yash Mgm: Haa
+02/10/2023, 5:56 pm - Yash Mgm: Midsem
+02/10/2023, 5:57 pm - Yash Mgm: Or koi mazak nahi kar Raha me
+02/10/2023, 6:04 pm - Ibrahim MGM: 5 to 7 ?
+02/10/2023, 6:08 pm - Yash Mgm: Yes brother
+02/10/2023, 6:08 pm - Yash Mgm: Exam
+02/10/2023, 6:11 pm - Ibrahim MGM: But we have 4 subhects
+02/10/2023, 6:11 pm - Yash Mgm: 2 subjects per day
+02/10/2023, 6:12 pm - Ibrahim MGM: Yeah like previous
+02/10/2023, 6:12 pm - Yash Mgm: Yes
+02/10/2023, 6:12 pm - Ibrahim MGM: Till now there is now spesafic day?
+02/10/2023, 6:22 pm - Ashul MGM: No notice broos...
+02/10/2023, 7:32 pm - Yash Mgm: You want notice I give you notice
+02/10/2023, 7:32 pm - Yash Mgm: Tan tada......
+02/10/2023, 7:32 pm - Yash Mgm: IMG-20231002-WA0035.jpg (file attached)
+02/10/2023, 7:33 pm - Yash Mgm: Don't mess with me 😤
+02/10/2023, 11:57 pm - Yash Mgm: Hello is anyone alive in this group (koi Zinda hai kya?)
+02/10/2023, 11:57 pm - Krishna MGM: Yes
+02/10/2023, 11:57 pm - Krishna MGM: Hun na
+02/10/2023, 11:57 pm - Yash Mgm: To marja
+02/10/2023, 11:57 pm - Krishna MGM: Bhai yaar tu kya
+02/10/2023, 11:57 pm - Krishna MGM: 😂
+02/10/2023, 11:58 pm - Yash Mgm: IMG-20231003-WA0000.jpg (file attached)
+02/10/2023, 11:59 pm - Yash Mgm: Kya Kar rahe hooo
+02/10/2023, 11:59 pm - Krishna MGM: Get well soon
+02/10/2023, 11:59 pm - Yash Mgm: Mai to lut gaya
+03/10/2023, 12:00 am - Yash Mgm: College aara kya aabhi
+03/10/2023, 12:00 am - Yash Mgm: Aaj ka phahila chat me Orr se
+03/10/2023, 12:00 am - Krishna MGM: Full satt dikhra tu aaj
+03/10/2023, 12:01 am - Yash Mgm: Happy birthday to you today (3 October)
+03/10/2023, 12:01 am - Krishna MGM: 🌷🌷
+03/10/2023, 12:01 am - Yash Mgm: Kya Kara hai tu 'M' ke aashik
+03/10/2023, 12:02 am - Krishna MGM: Ganje k khet me pani chordra
+03/10/2023, 12:03 am - Yash Mgm: Ache se ugana Orr kal thoda parsal bhi lana
+03/10/2023, 12:03 am - Krishna MGM: Haa
+03/10/2023, 12:03 am - Krishna MGM: Bhai
+03/10/2023, 12:03 am - Krishna MGM: Ful gogo
+03/10/2023, 12:04 am - Yash Mgm: Nind nahi aari
+03/10/2023, 12:04 am - Krishna MGM: Bhai 1-8 tak soya hun aaj
+03/10/2023, 12:05 am - Yash Mgm: Me sohi nahi para pata nahi konse bimari lag gayi
+03/10/2023, 12:05 am - Krishna MGM: Yaar Yash exam aare hai
+03/10/2023, 12:06 am - Yash Mgm: Yes parso exam hai
+03/10/2023, 12:06 am - Krishna MGM: Mid Sam kabse hai
+03/10/2023, 12:06 am - Krishna MGM: 🥺
+03/10/2023, 12:06 am - Krishna MGM: Bapre konse
+03/10/2023, 12:06 am - Krishna MGM: Hai aab
+03/10/2023, 12:06 am - Yash Mgm: Oct ending me
+03/10/2023, 12:06 am - Yash Mgm: Last sem
+03/10/2023, 12:06 am - Krishna MGM: Achaaa
+03/10/2023, 12:06 am - Yash Mgm: Dil Diya gallla
+03/10/2023, 12:06 am - Krishna MGM: Fir padhai ??
+03/10/2023, 12:07 am - Yash Mgm: Karange nal bhete
+03/10/2023, 12:07 am - Krishna MGM: 🌷
+03/10/2023, 12:07 am - Krishna MGM: Hate you Yash
+03/10/2023, 12:07 am - Yash Mgm: Akiya mohobta ve
+03/10/2023, 12:07 am - Krishna MGM: Go to the hell
+03/10/2023, 12:07 am - Krishna MGM: Yash
+03/10/2023, 12:07 am - Yash Mgm: I'm in hell now
+03/10/2023, 12:08 am - Yash Mgm: Discuss with the Lucifer morning star (#devil)
+03/10/2023, 12:09 am - Yash Mgm: Hello my all brothers I am going to _______
+complete the sentence (5marks)
+03/10/2023, 12:10 am - Krishna MGM: Hi guys, my name is – – – complete the sentence and get hundred marks
+03/10/2023, 12:10 am - Yash Mgm: Your name is gay
+03/10/2023, 12:10 am - Yash Mgm: Give me hundred marks
+03/10/2023, 12:10 am - Ibrahim MGM: English exam
+03/10/2023, 12:10 am - Ibrahim MGM: Agreee
+03/10/2023, 12:11 am - Ibrahim MGM: 😂😂😂😂
+03/10/2023, 12:11 am - Yash Mgm: Suuuuuuuuuuuu
+03/10/2023, 12:11 am - Ibrahim MGM: 😂😂
+03/10/2023, 12:11 am - Yash Mgm: Cristiano Ronaldoooooooooooooooooooooloo
+03/10/2023, 12:12 am - Yash Mgm: Cristiano vs BTS 
+Choose one
+03/10/2023, 12:13 am - Yash Mgm: I want to see who are man here
+03/10/2023, 12:13 am - Yash Mgm: Jaldi typing khatam kar Krishna
+03/10/2023, 12:14 am - Krishna MGM: Javed hubby. Hey guys, what are you doing? I am a girl what about you what what do you do now and how I was going to study then what is where is living Shankar Sir, Shankar Sir is not Shankar Sir sir, sir, Laxman sir, Bhart Sir Koteshwar Pooja Mym Laxmi Mam Patil MamUsha Mam, HOD Sir hazard sir, Pawan sir, accountant sir, Devi Shaa, madam, Vaibhav, Shali, madam, all my dear Sir and teachers and good friends and Yash 👑 is my best friend forever. Yash 👑 is good girl. Thank you
+03/10/2023, 12:14 am - Yash Mgm: Proud of you my son ❤️
+03/10/2023, 12:15 am - Krishna MGM: Thank you Yash 👑 Bhaiya
+03/10/2023, 12:15 am - Yash Mgm: Bring my name higher and higher and higher ⬆️
+03/10/2023, 12:15 am - Krishna MGM: Okay Yash 👑 Bhaiya
+03/10/2023, 12:16 am - Yash Mgm: What are you doing in your room
+03/10/2023, 12:16 am - Yash Mgm: I can see that
+03/10/2023, 12:16 am - Yash Mgm: 🧐
+03/10/2023, 12:16 am - Krishna MGM: Wahi, Sab Jo, Raat, Mein Karte hain
+03/10/2023, 12:16 am - Krishna MGM: Mainnhi dikhauga
+03/10/2023, 12:16 am - Yash Mgm: 150 rupaya dega 
+Ab dhekhade
+03/10/2023, 12:17 am - Krishna MGM: Nhi nhi
+03/10/2023, 12:17 am - Yash Mgm: Incognito mode kyu on hai tera 🤔
+03/10/2023, 12:17 am - Krishna MGM: Arrrrrre
+03/10/2023, 12:18 am - Krishna MGM: Kulhad pizz
+03/10/2023, 12:18 am - Yash Mgm: Nahi batana tha kya
+03/10/2023, 12:18 am - Yash Mgm: Ohh sorry koi nahi dhekhega
+03/10/2023, 12:18 am - Krishna MGM: Kulhad pizza dekha kya
+03/10/2023, 12:18 am - Yash Mgm: Yes me ne to try bhi Kiya hai
+03/10/2023, 12:19 am - Krishna MGM: 😂
+03/10/2023, 12:19 am - Yash Mgm: Mast hota hai
+03/10/2023, 12:19 am - Yash Mgm: Just experience ke liye
+03/10/2023, 12:19 am - Yash Mgm: 😤
+03/10/2023, 12:20 am - Yash Mgm: Hello @918767799592
+03/10/2023, 12:20 am - Yash Mgm: Kyu jag raha hai
+03/10/2023, 12:20 am - Krishna MGM: Itte raat ko @918767799592
+03/10/2023, 12:20 am - Yash Mgm: Krishna lagta hai iska bhi igcog mod chalu hai
+03/10/2023, 12:21 am - Krishna MGM: 😂
+03/10/2023, 12:21 am - Yash Mgm: Hello asul please apni selfie bhej
+03/10/2023, 12:22 am - Yash Mgm: Don't ignore me
+03/10/2023, 12:22 am - Yash Mgm: @918766598630 kal MGM aaja
+03/10/2023, 12:23 am - Yash Mgm: Byyyyyyy
+03/10/2023, 12:23 am - Yash Mgm: 💤🥱💤
+03/10/2023, 12:32 am - Krishna MGM: Hi guys
+03/10/2023, 12:41 am - Ibrahim MGM: What happen
+03/10/2023, 12:41 am - Krishna MGM: Good morning
+03/10/2023, 12:42 am - Ibrahim MGM: Afternoon
+03/10/2023, 12:42 am - Krishna MGM: Welcome to MGM college
+03/10/2023, 12:42 am - Krishna MGM: Gypč
+03/10/2023, 9:42 am - Yash Mgm: Hello my illegal guys
+Good morning 🌅
+03/10/2023, 9:42 am - Krishna MGM: Yash ye jana hai kya 11 baje
+03/10/2023, 9:43 am - Yash Mgm: Yes college me aana
+03/10/2023, 9:43 am - Yash Mgm: Lecture ko
+03/10/2023, 10:35 am - Krishna MGM: IMG-20230918-WA0000.jpg (file attached)
+03/10/2023, 10:35 am - Krishna MGM: <Media omitted>
+03/10/2023, 10:35 am - Yash Mgm: 😂😂😂😂😂😂😩😩😩😩😂😂😂😂
+03/10/2023, 10:38 am - Krishna MGM: Abhi maja aayega na bhidu
+03/10/2023, 10:39 am - Yash Mgm: Haa na meri Jaan
+03/10/2023, 1:45 pm - Huda MGM: Neural_Network_LAB_MANUAL_VIISem.pdf (file attached)
+03/10/2023, 1:49 pm - Sakshi ♥️💞: IMG-20231003-WA0026.jpg (file attached)
+AI tutorial questions
+03/10/2023, 1:49 pm - Sakshi ♥️💞: IMG-20230930-WA0023.jpg (file attached)
+03/10/2023, 1:49 pm - Sakshi ♥️💞: IMG-20231003-WA0025.jpg (file attached)
+03/10/2023, 2:18 pm - Hashim MGM: <Media omitted>
+03/10/2023, 2:18 pm - Hashim MGM: <Media omitted>
+03/10/2023, 2:25 pm - Shibaan MGM: Chapter4.pdf (file attached)
+03/10/2023, 2:25 pm - Shibaan MGM: logical time DS.pdf (file attached)
+03/10/2023, 2:29 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0029.jpg (file attached)
+03/10/2023, 2:29 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0030.jpg (file attached)
+03/10/2023, 2:29 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0032.jpg (file attached)
+03/10/2023, 2:29 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0031.jpg (file attached)
+03/10/2023, 2:31 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0033.jpg (file attached)
+03/10/2023, 2:31 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0034.jpg (file attached)
+03/10/2023, 2:31 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0035.jpg (file attached)
+03/10/2023, 2:31 pm - 𝓐𝓫𝓸𝓵𝓲 🔮: IMG-20231003-WA0036.jpg (file attached)
+03/10/2023, 2:33 pm - Hashim MGM: Chapter4_230913_131707.pdf (file attached)
+Chapter4_230913_131707
+03/10/2023, 2:34 pm - Hashim MGM: Unit 2
+03/10/2023, 2:50 pm - Sakshi ♥️💞: IMG-20231003-WA0037.jpg (file attached)
+03/10/2023, 2:50 pm - Sakshi ♥️💞: Distributing computing syllabus
+03/10/2023, 11:15 pm - Sakshi ♥️💞: 1.Explain asynchronous execution with synchronous  communication?
+2. Explain synchronous program order on an asynchronous system?
+3.explain Total and Causal order?
+4. What is group communication Explain with suitable diagrams?
+5. Explain nomenclature for multicast?
+6. Explain semantics of fault tolerance group  communication?
+7. Explain  propagation tree for multicast?
+03/10/2023, 11:15 pm - Sakshi ♥️💞: Tutorial 3rd
+03/10/2023, 11:16 pm - Sakshi ♥️💞: Distributing computing
+04/10/2023, 9:50 am - Sakshi ♥️💞: Aaj bharta sirka lecture nhi hoga
+04/10/2023, 9:55 am - Hashim MGM: Isme ke Konse Konse topics select kar liyea sab already ?
+04/10/2023, 9:55 am - Hashim MGM: For AI presentation
+04/10/2023, 9:56 am - Shibaan MGM: Neural Network
+04/10/2023, 9:57 am - Sakshi ♥️💞: hopfild network
+04/10/2023, 10:02 am - Hashim MGM: What about others ?
+04/10/2023, 10:05 am - Ashul MGM: Group me karna hai na ?
+04/10/2023, 10:16 am - Ibrahim MGM: Brothers
+04/10/2023, 10:16 am - Ibrahim MGM: Please neural and big data syllbus
+04/10/2023, 12:50 pm - Ashul MGM: Neural Network Syllabus.pdf (file attached)
+Neural Network Syllabus.pdf
+04/10/2023, 8:43 pm - Krishna MGM: <Media omitted>
+bharat sir ye problem ara hai fees bharte wakt
+04/10/2023, 8:45 pm - Krishna MGM: Kisiko ye issue aaya kya
+05/10/2023, 7:55 pm - Yash Mgm: IMG-20231005-WA0152.jpg (file attached)
+06/10/2023, 1:56 pm - Shibaan MGM: Data Analytics using R_krn.pptx (file attached)
+Data Analytics using R_krn.pptx
+06/10/2023, 1:56 pm - Shibaan MGM: <Media omitted>
+hadoopKRN.docx
+06/10/2023, 1:56 pm - Shibaan MGM: <Media omitted>
+krn_hadoop_intro1.pptx
+06/10/2023, 1:56 pm - Shibaan MGM: <Media omitted>
+krn_hdfs_BigData.pptx
+06/10/2023, 1:56 pm - Shibaan MGM: <Media omitted>
+pig_hive_hbase_krn.docx
+06/10/2023, 9:37 pm - Yash Mgm: New blog with Krishna ⚜️
+06/10/2023, 9:38 pm - Yash Mgm: <Media omitted>
+07/10/2023, 1:10 pm - Yash Mgm: <Media omitted>
+Enjoying the best day of our life 🙏
+07/10/2023, 1:14 pm - Yash Mgm: IMG-20231007-WA0000.jpg (file attached)
+07/10/2023, 1:14 pm - Yash Mgm: IMG-20231007-WA0005.jpg (file attached)
+07/10/2023, 1:15 pm - Yash Mgm: IMG-20231007-WA0004.jpg (file attached)
+07/10/2023, 1:15 pm - Yash Mgm: IMG-20231007-WA0003.jpg (file attached)
+07/10/2023, 1:15 pm - Yash Mgm: IMG-20231007-WA0001.jpg (file attached)
+07/10/2023, 1:15 pm - Yash Mgm: IMG-20231007-WA0002.jpg (file attached)
+07/10/2023, 9:11 pm - Yash Mgm: IMG-20231007-WA0006.jpg (file attached)
+08/10/2023, 2:00 am - Yash Mgm: This message was deleted
+08/10/2023, 3:13 pm - Krishna MGM: https://athletesovereign.top/nTiwpk888EEeea?uovw1696758173211
+08/10/2023, 3:25 pm - Ashul MGM: Kya lagata hai guys exams lagatar hone vale hai ya nahi ?
+08/10/2023, 8:45 pm - Yash Mgm: <Media omitted>
+New blog: #travel
+09/10/2023, 3:49 pm - Krishna MGM: IMG-20231009-WA0001.jpg (file attached)
+10/10/2023, 1:55 pm - Yash Mgm: Koi jara kya lecture ko
+10/10/2023, 1:55 pm - Yash Mgm: Next wala
+10/10/2023, 1:55 pm - Krishna MGM: Haa
+10/10/2023, 1:57 pm - Krishna MGM: null
+10/10/2023, 3:24 pm - Huda MGM: 142_231009_132003.pdf (file attached)
+10/10/2023, 10:37 pm - Yash Mgm: Neural network ke total tutorial questions kitne likhna hai ?
+10/10/2023, 11:21 pm - Ibrahim MGM: 25
+10/10/2023, 11:34 pm - Yash Mgm: Ok
+10/10/2023, 11:38 pm - Krishna MGM: Gadddar
+10/10/2023, 11:43 pm - Yash Mgm: Gadar 2 dekne chal ra kya
+10/10/2023, 11:44 pm - Yash Mgm: Landon ko
+11/10/2023, 8:31 am - Yash Mgm: Distributed computing ke practical ko koi aara kya
+11/10/2023, 8:33 am - Krishna MGM: Nh
+11/10/2023, 10:05 am - Yash Mgm: Koi college me hai kya
+11/10/2023, 11:38 am - Krishna MGM: Kt bhaiyya
+12/10/2023, 11:42 am - Shibaan MGM: wordCount_prog_krn.pdf (file attached)
+wordCount_prog_krn.pdf
+12/10/2023, 11:42 am - Shibaan MGM: Big data 4 th practical
+12/10/2023, 1:48 pm - Yash Mgm: IMG-20231012-WA0000.jpg (file attached)
+12/10/2023, 1:51 pm - Shibaan MGM: IMG-20231012-WA0001.jpg (file attached)
+12/10/2023, 1:51 pm - Shibaan MGM: IMG-20231012-WA0002.jpg (file attached)
+12/10/2023, 1:51 pm - Shibaan MGM: IMG-20231012-WA0004.jpg (file attached)
+12/10/2023, 1:51 pm - Shibaan MGM: IMG-20231012-WA0003.jpg (file attached)
+12/10/2023, 1:51 pm - Shibaan MGM: Big data practical 5 th
+14/10/2023, 11:13 am - Ashul MGM: Hello
+14/10/2023, 11:14 am - Ashul MGM: Good morning 🌄
+14/10/2023, 11:14 am - Ashul MGM: College jara hai kya koi?
+14/10/2023, 11:15 am - Krishna MGM: null
+14/10/2023, 11:18 am - Ashul MGM: Congrats 🎉 finally...
+17/10/2023, 9:59 am - Yash Mgm: Bharat sir ne aaj record book and tutorial submission ke liye bulaya hai
+17/10/2023, 10:14 am - Krishna MGM: Hao dede
+17/10/2023, 10:14 am - Krishna MGM: Tere hogaya isliye bulaya
+17/10/2023, 10:43 am - Yash Mgm: Sir meko bola batane ko mene bola baki abb puchle tu sir se
+18/10/2023, 12:58 pm - Ashul MGM: Anyone going to college,🎂?
+18/10/2023, 1:38 pm - Ibrahim MGM: This message was deleted
+18/10/2023, 1:38 pm - Ibrahim MGM: im not
+18/10/2023, 4:41 pm - Huda MGM: IMG-20231018-WA0012.jpg (file attached)
+18/10/2023, 4:41 pm - Huda MGM: IMG-20231018-WA0021.jpg (file attached)
+18/10/2023, 4:41 pm - Huda MGM: IMG-20231018-WA0020.jpg (file attached)
+18/10/2023, 4:41 pm - Huda MGM: IMG-20231018-WA0019.jpg (file attached)
+18/10/2023, 4:41 pm - Huda MGM: IMG-20231018-WA0018.jpg (file attached)
+18/10/2023, 4:41 pm - Huda MGM: Practical 2
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0017.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0016.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0015.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0014.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0013.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: IMG-20231018-WA0011.jpg (file attached)
+18/10/2023, 4:42 pm - Huda MGM: Practical 3
+18/10/2023, 5:36 pm - Shibaan MGM: IMG-20231018-WA0022.jpg (file attached)
+19/10/2023, 2:52 pm - Huda MGM: We have Distributed Computing Practical on Saturday
+20/10/2023, 6:31 pm - Yash Mgm: <Media omitted>
+21/10/2023, 9:07 am - Huda MGM: Is everyone coming today for practical or should we shift it on Wednesday. Everyone should be present.
+21/10/2023, 9:08 am - Huda MGM: What about everyone?
+21/10/2023, 9:08 am - Huda MGM: Ma’am’s asking
+21/10/2023, 9:08 am - Krishna MGM: Wednesday please
+21/10/2023, 9:08 am - Sakshi ♥️💞: Wednesday
+21/10/2023, 9:09 am - Huda MGM: 🤦🏻‍♀️😅
+21/10/2023, 9:09 am - Krishna MGM: Ha
+21/10/2023, 9:09 am - Krishna MGM: Meri tabiyat kharab ha 3,4 dino se isliye kehra
+21/10/2023, 9:11 am - Huda MGM: Ok but be everyone there on Wednesday
+21/10/2023, 9:11 am - Krishna MGM: Ok
+21/10/2023, 2:50 pm - Yash Mgm: IMG-20231021-WA0003.jpg (file attached)
+21/10/2023, 2:55 pm - Ashul MGM: Bhai Naya kuch bol... Ye pata hai sabko
+21/10/2023, 2:56 pm - Yash Mgm: Ye hi Naya meeting ka opinion hai Jo abhi hua hai
+21/10/2023, 2:56 pm - Yash Mgm: To lag ja study karne
+21/10/2023, 2:57 pm - Ashul MGM: Ye to 9 tari kh ka hai
+21/10/2023, 2:57 pm - Ashul MGM: 9 tarikh ke meetting ka
+21/10/2023, 2:58 pm - Ashul MGM: 7 tarikh
+21/10/2023, 2:58 pm - Yash Mgm: Haa but abhi ye date fix ho gai hai
+21/10/2023, 2:58 pm - Yash Mgm: Timetable 1 ya 2 din me aajay ga
+21/10/2023, 2:59 pm - Krishna MGM: IMG-20231021-WA0004.jpg (file attached)
+21/10/2023, 3:01 pm - Ashul MGM: Naam kisko dena
+21/10/2023, 3:01 pm - Ashul MGM: Hai
+21/10/2023, 10:52 pm - Ashul MGM: How many tutorial questions do  we have  for AI guys
+21/10/2023, 11:09 pm - Ibrahim MGM: Areeee baba dadu practical of distrbuted computing
+21/10/2023, 11:09 pm - Ibrahim MGM: Galdi bhai
+21/10/2023, 11:11 pm - Ibrahim MGM: 😂😂😂
+21/10/2023, 11:11 pm - Ashul MGM: 😂😂
+21/10/2023, 11:11 pm - Ibrahim MGM: 😂😂😂😂
+21/10/2023, 11:11 pm - Ashul MGM: Ebrahim good night so jao
+21/10/2023, 11:11 pm - Ashul MGM: Soja Bhai
+21/10/2023, 11:11 pm - Ibrahim MGM: Dadu dadu dasu
+21/10/2023, 11:11 pm - Ashul MGM: Jaldi
+21/10/2023, 11:11 pm - Ibrahim MGM: Dadu
+21/10/2023, 11:12 pm - Ibrahim MGM: Areee bhai
+21/10/2023, 11:12 pm - Ibrahim MGM: Jaldi jaldi bhai
+21/10/2023, 11:13 pm - Ashul MGM: Soj means sleep 💤
+21/10/2023, 11:13 pm - Ashul MGM: Sleep well bro
+21/10/2023, 11:17 pm - Ibrahim MGM: Naah
+22/10/2023, 7:04 pm - Ibrahim MGM: What
+22/10/2023, 7:04 pm - Ibrahim MGM: Is this ?????
+23/10/2023, 7:47 am - Yash Mgm: College ane wala hai kya koi?
+23/10/2023, 9:00 am - Krishna MGM: No
+23/10/2023, 1:17 pm - Ashul MGM: Is anyone in college?
+24/10/2023, 9:54 am - Krishna MGM: Clg aare koii ?
+24/10/2023, 12:18 pm - Yash Mgm: Haa
+26/10/2023, 10:41 am - Yash Mgm: Clg aare kya koi?
+26/10/2023, 12:12 pm - Ashul MGM: Tu jaraha kya
+26/10/2023, 12:53 pm - Yash Mgm: Haa
+27/10/2023, 12:28 am - Ibrahim MGM: Hi
+27/10/2023, 12:28 am - Ibrahim MGM: Anyone have dates of the distrbuting computing for theindex
+27/10/2023, 12:28 am - Ibrahim MGM: The index*
+27/10/2023, 6:15 pm - Yash Mgm: <Media omitted>
+27/10/2023, 7:52 pm - Krishna MGM: IMG-20231027-WA0006.jpg (file attached)
+27/10/2023, 9:53 pm - Ibrahim MGM: Welcoome
+28/10/2023, 9:30 am - Huda MGM: Distributed practical at 11
+28/10/2023, 9:34 am - Yash Mgm: I'm coming 🙋‍♂️
+28/10/2023, 11:41 am - Huda MGM: IMG-20231028-WA0001.jpg (file attached)
+28/10/2023, 11:54 am - Huda MGM: IMG-20231028-WA0002.jpg (file attached)
+Practical dates
+30/10/2023, 12:21 pm - Ashul MGM: College me hai kya koi?
